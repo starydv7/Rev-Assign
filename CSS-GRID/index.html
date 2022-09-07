@@ -1,51 +1,156 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title></title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="style.css">
-    </head>
-    <body>
-        <div class="container-1">
-            <div class="col-1">
-                <img src="./assets/first.png"alt='first'class="first"/>
-            </div>
-            <div class="col-2">
-                <div class="nav-2">
-                <nav>
-                    <ul>
-                        <li><a href="#">HOME</a></li>
-                        <li><a href="#">ABOUT</a></li>
-                        <li><a href="#">EXPERINCE</a></li>
-                        <li><a href="#">TESTIMONIAL</a></li>
-                        <li><a href="#">CONTACT</a></li>
-                    </ul>
-                </nav>
-                
-                <h5>WELCOME TO MY WEBSITES</h5>
-                <p class="hello">Hello,I am <b class="b">Stimulatus</b> currently based<br>
-                    in New York city.</p>
-                <p class="hello-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
-                    the industry's standard
-                    dummy text ever since the 1500s,</p>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .cont {
+            display: grid;
+            grid-template-columns: repeat(4, 355px);
+            grid-template-rows: repeat(5, 400px);
+            border: 1px solid red;
+            /* background-color: teal; */
+            /* height: 800px; */
+            /* gap: 12px; */
+
+        }
+
+        /* .cont >div{
+            border:  1px solid blue;
+        } */
+        .num1 {
+
+            grid-area: 1/1/2/3;
+            border: 1px solid blue;
+
+        }
+
+        .num2 {
+            grid-area: 1/3/2/5;
 
 
-                    <button type="button" class="get-started">GET STARTED</button>
-                    
-                </div>
-               
-            </div>
+            border: 1px solid blue;
+
+        }
+
+        .num3 {
+            grid-area: 2/1/2/3;
+
+
+            border: 1px solid blue;
+
+        }
+
+
+        .num4 {
+            grid-area: 2/3/3/4;
+
+
+            border: 1px solid blue;
+
+        }
+
+        .num5 {
+            grid-area: 2/4/2/5;
+
+
+            border: 1px solid blue;
+
+        }
+
+        .num6 {
+            grid-area: 3/1/4/2;
+
+
+            border: 1px solid blue;
+
+        }
+
+        .num7 {
+            grid-area: 3/2/4/3;
+
+
+            border: 1px solid blue;
+
+        }
+
+        .num8 {
+            grid-area: 3/3/4/4;
+
+
+            border: 1px solid blue;
+
+        }
+
+        .num9 {
+            grid-area: 3/4/4/5;
+
+
+            border: 1px solid blue;
+
+
+        }
+
+        .num10 {
+            grid-area: 4/1/5/3;
+
+
+            border: 1px solid blue;
+
+        }
+
+        .num11 {
+            grid-area: 4/3/5/5;
+
+
+            border: 1px solid blue;
+
+        }
+
+        .num12 {
+            grid-area: 5/1/6/3;
+
+
+            border: 1px solid blue;
+
+        }
+
+        .num13 {
+            grid-area: 5/3/6/5;
+
+
+            border: 1px solid blue;
+
+        }
+        .first{
+            width: 100%;
+            height: 100%;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="cont">
+        <div class="num1">
+            <img src="./assets/first.png"class="first"alt="first"/>
         </div>
-        <div class="my-skill">
-            <div></div>
-            <div></div>
-            <div></div>
-        </div>
-        
-        
-        <script src="" async defer></script>
-    </body>
+        <div class="num2"></div>
+        <div class="num3"></div>
+        <div class="num4"></div>
+        <div class="num5"></div>
+        <div class="num6"></div>
+        <div class="num7"></div>
+        <div class="num8"></div>
+        <div class="num9"></div>
+        <div class="num10"></div>
+        <div class="num11"></div>
+        <div class="num12"></div>
+        <div class="num13"> </div>
+
+    </div>
+</body>
+
 </html>
