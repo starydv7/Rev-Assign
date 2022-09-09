@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="">
+    <style>
+        .tooltip {
+            position: relative;
+            display: inline-block;
+            border-bottom: 1px dotted black;
+            background-color: blueviolet;
+            width: 80px;
+            text-align: center;
+            color: white;
+            border-radius: 10px;
+        }
+        
+
+        .tooltip .tooltiptext {
+            visibility: hidden;
+            width: 80px;
+            background-color: rgb(38, 175, 49);
+            color: #fff;
+            text-align: center;
+            border-radius: 6px;
+            padding: 5px 0;
+
+            /* Position the tooltip */
+            position: absolute;
+            z-index: 1;
+            top: -5px;
+            left: 105%;
+        }
+
+        .tooltip:hover .tooltiptext {
+            visibility: visible;
+        }
+
+      
+        .tooltipleft {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black;
+  background-color: blueviolet;
+  width: 80px;
+  text-align: center;
+  color: white;
+  border-radius: 10px;
+  
+}
+
+.tooltipleft .tooltiptextleft {
+  visibility: hidden;
+  width: 80px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+  top: -5px;
+  right: 105%;
+}
+
+.tooltipleft:hover .tooltiptextleft {
+  visibility: visible;
+}
+.tooltiptop{
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black;
+  background-color: blueviolet;
+  width: 80px;
+  text-align: center;
+  color: white;
+  border-radius: 10px;
+}
+
+.tooltiptop .tooltiptexttop {
+  visibility: hidden;
+  width: 80px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+  bottom: 100%;
+  left: 50%;
+  margin-left: -60px;
+}
+
+.tooltiptop:hover .tooltiptexttop {
+  visibility: visible;
+}
+.tooltipb {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black;
+  background-color: blueviolet;
+  width: 80px;
+  text-align: center;
+  color: white;
+  border-radius: 10px;
+}
+
+.tooltipb .tooltiptextb {
+  visibility: hidden;
+   width: 80px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+  top: 100%;
+  left: 50%;
+  margin-left: -60px;
+}
+
+.tooltipb:hover .tooltiptextb {
+  visibility: visible;
+}
+  .flex {
+            display: flex;
+            gap: 100px;
+            margin-top: 100px;
+            justify-content: center;
+            justify-items: auto;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="flex">
+
+
+        <div class="tooltip">Right
+            <span class="tooltiptext">right</span>
+        </div>
+        <div class="tooltipleft">Left
+            <span class="tooltiptextleft">Left</span>
+        </div>
+        <div class="tooltiptop">Top
+            <span class="tooltiptexttop">Top</span>
+        </div>
+       
+        <div class="tooltipb">Bottom
+            <span class="tooltiptextb">Bottom</span>
+        </div>
+
+
+
+
+
+    </div>
+    <script src="" async defer></script>
+</body>
+
+</html>
